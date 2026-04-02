@@ -16,31 +16,6 @@ A structured, 7-month journey through Dynamic Programming patterns — from Fibo
 
 ---
 
-## Project Structure
-
-```
-dynamic_programming/
-└── constant_transition/          # Stage 1 — Fibonacci Numbers Pattern
-    ├── fibonacci_number/
-    │   ├── fibonacci_number.py   # Bottom-up and top-down implementations
-    │   ├── test_fibonacci_number.py
-    │   └── fibonacci_number.md   # Problem breakdown & walkthrough
-    └── house_robber/
-        ├── house_robber.py       # O(n) time, O(1) space solution
-        ├── test_house_robber.py
-        └── house_robber.md       # Problem breakdown & walkthrough
-```
-
-Each package follows the same convention:
-
-| File | Purpose |
-|------|---------|
-| `<problem>.py` | Implementation with docstring (complexity, args, example) |
-| `test_<problem>.py` | Parametrized pytest suite covering typical, edge, and stress cases |
-| `<problem>.md` | Problem statement, key insight, recurrence, step-by-step walkthrough |
-
----
-
 ## 7-Month Learning Plan
 
 ### Stage 01 — Fibonacci Numbers Pattern `Month 1`
@@ -80,7 +55,7 @@ dp[i] = f(dp[i-1], dp[i-2])
 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | LeetCode 740 | Medium | Reduce to House Robber |
 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | LeetCode 91 | Medium | Fibonacci with conditions |
 | [Max Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/) | LeetCode 1911 | Medium | Two-state DP |
-| [Memoized Fibonacci](https://www.codewars.com/kata/529adbf7533b761c560004e5) | Codewars 5kyu | Easy | Implement memoization |
+| ~~[Memoized Fibonacci](https://www.codewars.com/kata/529adbf7533b761c560004e5)~~ | Codewars 5kyu | Easy | Implement memoization |
 | [The Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26) | Codewars 3kyu | Hard | Matrix exponentiation |
 | [Fibonacci, Tribonacci and Friends](https://www.codewars.com/kata/556e0fccc392c527f20000c5) | Codewars 6kyu | Easy | Generalized k-bonacci |
 | [Dice Combinations](https://cses.fi/problemset/task/1633) | CSES | Easy | Generalized staircase (6 choices) |
