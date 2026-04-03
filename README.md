@@ -49,7 +49,7 @@ dp[i] = f(dp[i-1], dp[i-2])
 | ~~[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)~~ | LeetCode 509 | Easy | Pure Fibonacci, memoize / tabulate |
 | ~~[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)~~ | LeetCode 70 | Easy | dp[i] = dp[i-1] + dp[i-2] |
 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | LeetCode 746 | Easy | Fibonacci + min choice |
-| [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | LeetCode 1137 | Easy | 3-state Fibonacci |
+| ~~[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)~~ | LeetCode 1137 | Easy | 3-state Fibonacci |
 | ~~[House Robber](https://leetcode.com/problems/house-robber/)~~ | LeetCode 198 | Medium | dp[i] = max(dp[i-1], dp[i-2]+nums[i]) |
 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | LeetCode 213 | Medium | Circular → two linear subproblems |
 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | LeetCode 740 | Medium | Reduce to House Robber |
