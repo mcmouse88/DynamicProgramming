@@ -31,15 +31,18 @@ dp[i] = f(dp[i-1], dp[i-2])
 
 **Learning Resources:**
 
-| Resource | Type |
-|----------|------|
-| [Aditya Verma — DP Playlist](https://www.youtube.com/watch?v=nqowUJzG-iM&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) (start from intro, covers Fibonacci → Knapsack) | YouTube |
-| [Back To Back SWE — The Recursive Staircase (Top Down & Bottom Up DP)](https://www.youtube.com/watch?v=NFJ3m9a1oJQ) | YouTube |
-| [Back To Back SWE — Total Ways To Decode A String](https://www.youtube.com/watch?v=YcJTyrG3bZs) | YouTube |
-| [freeCodeCamp — Dynamic Programming Visual Course](https://www.youtube.com/watch?v=73r3KWiEvyk) (6 patterns, starts with Constant Transition) | YouTube |
-| [NeetCode 150 / 250](https://neetcode.io/practice) — 1-D Dynamic Programming section | Platform |
-| [CP-Algorithms — Introduction to DP](https://cp-algorithms.com/dynamic_programming/intro-to-dp.html) — Fibonacci as foundation, memoization vs tabulation | Article |
-| [AlgoMaster — 20 Patterns to Master DP](https://blog.algomaster.io/p/20-patterns-to-master-dynamic-programming) — pattern index with problem links | Article |
+| Resource                                                                                                                                                                         | Type |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| [Aditya Verma — DP Playlist](https://www.youtube.com/watch?v=nqowUJzG-iM&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go) (start from intro, covers Fibonacci → Knapsack)                | YouTube |
+| [Back To Back SWE — The Recursive Staircase (Top Down & Bottom Up DP)](https://www.youtube.com/watch?v=NFJ3m9a1oJQ)                                                              | YouTube |
+| [Back To Back SWE — Total Ways To Decode A String](https://www.youtube.com/watch?v=YcJTyrG3bZs)                                                                                  | YouTube |
+| [NeetCode - Decode Ways](https://www.youtube.com/watch?v=6aEyTjOwlJU)                                                                                                            | YouTube |
+| [NeetCode - Min Cost Climbing Stairs](https://www.youtube.com/watch?v=ktmzAZWkEZ0)                                                                                                            | YouTube |
+| [NeetCode - Delete and Earn](https://www.youtube.com/watch?v=7FCemBxvGw0)                                                                                                            | YouTube |
+| [freeCodeCamp — Dynamic Programming Visual Course](https://www.youtube.com/watch?v=73r3KWiEvyk) (6 patterns, starts with Constant Transition)                                    | YouTube |
+| [NeetCode 150 / 250](https://neetcode.io/practice) — 1-D Dynamic Programming section                                                                                             | Platform |
+| [CP-Algorithms — Introduction to DP](https://cp-algorithms.com/dynamic_programming/intro-to-dp.html) — Fibonacci as foundation, memoization vs tabulation                        | Article |
+| [AlgoMaster — 20 Patterns to Master DP](https://blog.algomaster.io/p/20-patterns-to-master-dynamic-programming) — pattern index with problem links                               | Article |
 | [HackerEarth — Introduction to DP](https://hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/) — theory + practice problems | Article |
 
 **Practice Problems:**
@@ -53,7 +56,7 @@ dp[i] = f(dp[i-1], dp[i-2])
 | ~~[House Robber](https://leetcode.com/problems/house-robber/)~~ | LeetCode 198 | Medium | dp[i] = max(dp[i-1], dp[i-2]+nums[i]) |
 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | LeetCode 213 | Medium | Circular → two linear subproblems |
 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | LeetCode 740 | Medium | Reduce to House Robber |
-| [Decode Ways](https://leetcode.com/problems/decode-ways/) | LeetCode 91 | Medium | Fibonacci with conditions |
+| ~~[Decode Ways](https://leetcode.com/problems/decode-ways/)~~ | LeetCode 91 | Medium | Fibonacci with conditions |
 | [Max Alternating Subsequence Sum](https://leetcode.com/problems/maximum-alternating-subsequence-sum/) | LeetCode 1911 | Medium | Two-state DP |
 | ~~[Memoized Fibonacci](https://www.codewars.com/kata/529adbf7533b761c560004e5)~~ | Codewars 5kyu | Easy | Implement memoization |
 | [The Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26) | Codewars 3kyu | Hard | Matrix exponentiation |
